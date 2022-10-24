@@ -76,7 +76,20 @@ animation-iteration-count: infinite;
   width: 2px;
   height: 1px;
   border: #FFF 5px solid;
-  
+  -moz-border-radius: 300px / 150px;
+  -webkit-border-radius: 300px / 150px;
+  border-radius: 300px / 150px;
+  -moz-animation-name: ripple-2;
+  -webkit-animation-name: ripple-2;
+  animation-name: ripple-2;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+
 }
 
 @keyframes ripple{
