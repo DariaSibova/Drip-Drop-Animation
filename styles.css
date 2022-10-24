@@ -66,3 +66,13 @@ animation-duration: 2s;
 animation-iteration-count: infinite;
 
 }
+
+@keyframes ripple{
+  from{
+    opacity: 1;
+  }
+  to{
+    width: 600px;
+    height: 300px;
+  }
+}
