@@ -67,6 +67,18 @@ animation-iteration-count: infinite;
 
 }
 
+.wave::after{
+  content: "";
+  position: absolute;
+  opacity: 0;
+  top: -5px;
+  left: -5px;
+  width: 2px;
+  height: 1px;
+  border: #FFF 5px solid;
+  
+}
+
 @keyframes ripple{
   from{
     opacity: 1;
