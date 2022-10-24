@@ -23,5 +23,10 @@ animation-name: drip;
 -moz-animation-timing-function: cubic-bezier(1,0,.91,.19);
 -webkit-animation-timing-function: cubic-bezier(1,0,.91,.19);
 animation-timing-function: cubic-bezier(1,0,.91,.19);
-
+-moz-animation-direction: 2s;
+-webkit-animation-direction: 2s;
+animation-direction: 2s;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
 }
