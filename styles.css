@@ -41,3 +41,15 @@ animation-iteration-count: infinite;
   border-bottom: 30px solid rgba(255, 255, 255, 1);
   top: -22px;
 }
+
+.wave{
+  position: relative;
+opacity: 0;
+top: 0;
+width: 2px;
+height: 1px;
+border: #FFF 7px solid;
+-moz-border-radius:300px/150px;
+-webkit-border-radius:300px/150px;
+border-radius: 399px/150px;
+}
