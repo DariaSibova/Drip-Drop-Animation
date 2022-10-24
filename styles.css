@@ -2,3 +2,22 @@ body{
   background-color: #457b9d;
   overflow: hidden;
 }
+
+div{
+  margin: 175px auto;
+}
+
+.drop{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: -30px;
+  margin: 0 auto;
+  background: #FFF;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  border-radius: 20px;
+-moz-animation-name: drip;
+-webkit-animation-name: drip;
+animation-name: drip;
+}
