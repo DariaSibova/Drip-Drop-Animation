@@ -52,4 +52,10 @@ border: #FFF 7px solid;
 -moz-border-radius:300px/150px;
 -webkit-border-radius:300px/150px;
 border-radius: 399px/150px;
+-moz-animation-name: ripple;
+-webkit-animation-name: ripple;
+animation-name: ripple;
+-moz-animation-delay: 2s;
+-webkit-animation-delay: 2s;
+animation-delay: 2s;
 }
