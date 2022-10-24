@@ -20,4 +20,8 @@ div{
 -moz-animation-name: drip;
 -webkit-animation-name: drip;
 animation-name: drip;
+-moz-animation-timing-function: cubic-bezier(1,0,.91,.19);
+-webkit-animation-timing-function: cubic-bezier(1,0,.91,.19);
+animation-timing-function: cubic-bezier(1,0,.91,.19);
+
 }
